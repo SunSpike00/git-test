@@ -4,7 +4,13 @@ const routes = [
     path: '/',
     component: () => import('layouts/MainLayout.vue'),
     children: [
-      { path: '', component: () => import('pages/IndexPage.vue') }
+      { path: '', component: () => import('pages/IndexPage.vue') },
+      // 한 줄 추가
+      { path: '/vue', component: () => import('pages/VueEx.vue')},
+
+      { path: '/blog', component: () => import('pages/BlogPost.vue')},
+    
+      { path: '/shop', component: () => import('pages/ShoppingList.vue') },
     ]
   },
 
@@ -13,7 +19,8 @@ const routes = [
   {
     path: '/:catchAll(.*)*',
     component: () => import('pages/ErrorNotFound.vue')
-  }
+  },
+  
 ]
 
 export default routes
