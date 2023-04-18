@@ -11,6 +11,8 @@ const routes = [
       { path: '/blog', component: () => import('pages/BlogPost.vue')},
     
       { path: '/shop', component: () => import('pages/ShoppingList.vue') },
+      
+      { path: '/todo', component: () => import('pages/Todo.vue') },
     ]
   },
 

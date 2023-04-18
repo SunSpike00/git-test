@@ -65,12 +65,14 @@ const linksList = [
     icon: 'code',
     link: '/shop'
   },
+  
   {
-    title: 'BlogPost 페이지',
-    caption: 'BlogPost 테스트',
-    icon: 'blog',
-    link: '/blog'
-  }
+    title: 'todo',
+    caption: 'vue + store 실습',
+    icon: 'home',
+    link: '/todo'
+  },
+
   /*
   {
     title: 'Docs',
