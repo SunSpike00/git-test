@@ -71,7 +71,6 @@
 import useTodoStore from "src/stores/todo";
 import { mapActions, mapState } from "pinia";
 import DialogCustom from "components/DialogCustom.vue";
-
 export default {
   name: "Todo",
   title: "Todo list",
